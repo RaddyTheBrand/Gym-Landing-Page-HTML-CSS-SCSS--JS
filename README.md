@@ -9,7 +9,7 @@ This was created as part of YouTube Video. Links below
 
 [YouTube Video](hhttps://youtu.be/uJZb0o2OEHk)
 
-[Read Article](https://raddy.co.uk/blog/how-to-create-a-custom-ecommerce-theme-on-wordpress-woocommerce-local-underscores-bootstrap)
+[Read Article](https://github.com/RaddyTheBrand/Gym-Landing-Page-HTML-CSS-SCSS--JS)
 
 ### YouTube Channel - RaddyTheBrand
 
