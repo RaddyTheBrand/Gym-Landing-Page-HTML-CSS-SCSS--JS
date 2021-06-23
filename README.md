@@ -7,7 +7,7 @@ This was created as part of YouTube Video. Links below
 
 ### YouTube Video & Article
 
-[YouTube Video](hhttps://youtu.be/uJZb0o2OEHk)
+[YouTube Video](https://youtu.be/uJZb0o2OEHk)
 
 [Read Article](https://github.com/RaddyTheBrand/Gym-Landing-Page-HTML-CSS-SCSS--JS)
 
