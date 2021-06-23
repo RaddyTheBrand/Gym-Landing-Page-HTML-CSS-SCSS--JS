@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Zoo365</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+	<a class="skip-to-content" href="#main">
+		Skip to content
+	</a>
+
+	
+	<header class="header">
+
+		<div class="container">
+			<h1 class="header-logo">
+				<span class="sr-only">Zoo365</span>
+				<a href="/"  area-lable="Zoo365">
+					<img src="img/logo.svg" alt="Zoo365" loading="lazy">
+				</a>
+			</h1>
+
+			<div class="header__menu">
+
+				<!-- Mobile Navigation Start -->
+				<button class="button" id="mobile-menu-toggle" aria-label="Toggle Menu" aria-expanded="false" aria-controls="mobileMenu" data-target="#mobileMenu">
+					<img src="img/menu.svg" alt="Mobile Menu" loading="lazy">
+				</button>
+				<!-- Mobile Navigation End -->
+
+				<nav class="desktop-menu">
+					<h1 class="sr-only">Main Navigation</h1>
+					<ul>
+						<li><a href="#" class="desktop-menu__link active">Home</a></li>
+						<li><a href="#" class="desktop-menu__link">About</a></li>
+						<li><a href="#" class="desktop-menu__link">Shop</a></li>
+						<li><a href="#" class="desktop-menu__link">Gallery</a></li>
+						<li><a href="#" class="desktop-menu__link">Contact</a></li>
+					</ul>
+				</nav>
+
+			</div>
+		</div>
+
+	</header>
+
+	<nav class="mobile-menu" role="navigation" id="mobileMenu">
+		<h1 class="sr-only">Mobile Navigation</h1>
+		<div class="mobie-nav-close"></div>
+		<ul role="navigation">
+			<li><a href="#" class="mobile-menu__link">Home</a></li>
+			<li><a href="#" class="mobile-menu__link">About</a></li>
+			<li><a href="#" class="mobile-menu__link">Shop</a></li>
+			<li><a href="#" class="mobile-menu__link">Gallery</a></li>
+			<li><a href="#" class="mobile-menu__link">Contact</a></li>
+		</ul>
+	</nav>
+
+
+
+
+	<main>
+
+		<section class="hero">
+
+			<div class="hero__image">
+				<img src="img/hero.jpg" alt="Lifting heavy!" loading="lazy">
+			</div>
+
+			<div class="container hero__container">
+
+				<div class="hero-wrapper">
+					<h1 class="hero-wrapper__heading">Make this year <span>your year</span>.</h1>
+					<p class="hero-wrapper__body">
+						Define your limits and pursue your fitness goals with a complimentary all-access gym pass!
+					</p>
+					<a href="#" class="button button--primary" data-content="Find Out More" area-label="Find out more">Find out
+						More</a>
+				</div>
+
+				<a href="#scrolldown" class="hero__scrollbtn">
+					SCROLL
+					<img src="img/arrow-down.svg" alt="DOWN">
+				</a>
+
+			</div>
+
+		</section>
+
+
+		<section class="categories pt-1" id="scrolldown">
+			<h1 class="sr-only">Zoo365</h1>
+
+			<div class="container training">
+
+				<a href="#" class="training__card training__card--square">
+					<h3 class="training__card-title">Expert Coaching</h3>
+					<div class="image-overlay"></div>
+					<div class="training__image">
+						<img src="img/expert-coaching.jpg" alt="Our Expert Coaching">
+					</div>
+				</a>
+
+				<a href="#" class="training__card training__card--square">
+					<h3 class="training__card-title">Nutrition</h3>
+					<div class="image-overlay"></div>
+					<div class="training__image">
+						<img src="img/nutrition.jpg" alt="Nutrition">
+					</div>
+				</a>
+
+				<a href="#" class="training__card training__card--square">
+					<h3 class="training__card-title">Support</h3>
+					<div class="image-overlay"></div>
+					<div class="training__image">
+						<img src="img/support.jpg" alt="Support">
+					</div>
+				</a>
+
+			</div>
+
+		</section>
+
+
+		<section class="get-started get-started-img1 mt-1">
+			<div class="overlay"></div>
+
+			<div class="container">
+				<h1 class="text-center">Get Started Today<br> <span>Why Wait</span></h1>
+				<a href="#" class="button button--primary">Sign up</a>
+			</div>
+		</section>
+
+
+
+
+		<section class="training-options pt-1">
+
+			<div class="container">
+
+				<h1 class="training-option__heading text-center">Your Training <span>Options</span></h1>
+				<p class="training-options__body text-center">Defy your limits and pursue your fitness goals with a complimentary all-access gym pass! Try our wide-variety of classes, train with world-class coaches, and access the equipment you need. Available at participating locations. Offers vary by location. Terms and conditions may apply.</p>
+
+
+			<div class="training training--options pt-1">
+
+				<a href="#" class="training__card">
+					<h3 class="training__card-title">Small Group PT</h3>
+					<p class="training__card-body">Expect the unexpected in our signature high-intensity interval training class. Cycle through timed interval stations designed to consistently shock your system and deliver results.</p>
+					<div class="image-overlay"></div>
+					<div class="training__image">
+						<img src="img/nutrition.jpg" alt="Small Group PT">
+					</div>
+				</a>
+
+				<a href="#" class="training__card">
+					<h3 class="training__card-title">Classes</h3>
+					<p class="training__card-body">Develop strength, conditioning, and flexibility with our ZOO 365 - inspired fitness routines. These efficient, effective, total-body workouts can be done at home with minimal equipment.</p>
+					<div class="image-overlay"></div>
+					<div class="training__image">
+						<img src="img/expert-coaching.jpg" alt="Classes">
+					</div>
+				</a>
+
+				<a href="#" class="training__card">
+					<h3 class="training__card-title">One To One</h3>
+					<p class="training__card-body">Receive expert advice, a personalized plan, and 1-on-1 real-time attention with online personal training. Regardless of goal or athletic ability, we have a coach for you. Equipment not necessary.</p>
+					<div class="image-overlay"></div>
+					<div class="training__image">
+						<img src="img/support.jpg" alt="One To One">
+					</div>
+				</a>
+			</div>
+
+
+			</div>
+
+		</section>
+
+
+		<section class="get-started get-started-img2 mt-1">
+			<div class="overlay"></div>
+
+			<div class="container">
+				<h1 class="text-center">
+					WE WILL HELP YOU GET IN<br> 
+          THE SHAPE OF YOUR LIFE<br> 
+          <span>LET'S GET STARTED</span>
+				</h1>
+				<a href="#" class="button button--primary">Sign up</a>
+			</div>
+		</section>
+
+
+	</main>
+
+	<footer class="footer pt-1">
+
+		<div class="container footer-container">
+
+			<div class="footer-col">
+				<h3 class="footer-col__heading">Find Us</h3>
+				<ul class="footer-col__list">
+					<li>Address: <a href="#">43 Moscow Pi London</a></li>
+					<li>Contact: <a href="tel:0885524544">0885524544</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-col">
+				<h3 class="footer-col__heading">Get Assistance</h3>
+				<ul class="footer-col__list">
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-col">
+				<h3 class="footer-col__heading">Company</h3>
+				<ul class="footer-col__list">
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-col">
+				<h3 class="footer-col__heading">Keep In Touch</h3>
+				<ul class="footer-col__list">
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="container text-center footer__copyright">
+			<p class="pt-1 ">&copy; 2021 Zoo365 - Created by <a href="http://raddy.co.uk" target="_blank">Raddy</a></p>
+		</div>
+
+	</footer>
+
+
+
+</body>
+
+</html>
